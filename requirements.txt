@@ -1,0 +1,5 @@
+streamlit>=1.40
+requests>=2.31
+pillow>=10.0
+psutil>=5.9
+uv>=0.5

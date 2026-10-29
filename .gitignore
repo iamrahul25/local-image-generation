@@ -1,0 +1,41 @@
+# Python / environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Downloaded engines, tools and model weights (fetched from the app's ⬇ buttons or setup.bat)
+engines/
+local-ai/
+Open-Generative-AI/
+models/
+ckpts/
+loras/
+*.safetensors
+*.gguf
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+*.part
+*.zip
+*.exe
+*.dll
+
+# Generated outputs and logs
+outputs/
+*.log
+
+# Local, per-machine data (settings.json holds API keys)
+data/settings.json
+data/wan2gp_models.json
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
